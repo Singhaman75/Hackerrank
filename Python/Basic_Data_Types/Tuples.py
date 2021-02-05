@@ -14,6 +14,8 @@
 # Print the result of hash(t).
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
+# the hash function returns an iterator so its first stored in a variable and then printed
 tuple_len = int(raw_input())
 a = tuple(map(int, raw_input().split(' ')))
-print hash(a)
+x=hash(a)
+print(x)
