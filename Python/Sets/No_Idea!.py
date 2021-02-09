@@ -21,7 +21,7 @@
 # Output a single integer, your total happiness.
 
 
-# Enter your code here. Read input from STDIN. Print output to STDOUT
+# Enter your code here. Read input from STDIN. Print output to STDiOUT
 n_m = raw_input().split()
 n_m = map(int, n_m)
 n = map(int, raw_input().split())
