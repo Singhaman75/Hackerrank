@@ -27,3 +27,8 @@ T = [list(g) for k, g in groupby(S)]
 
 for i in T:
     print (len(i), int(i[0])),
+
+    ''' for python 3 we will have to create some changes in the programme which include
+    raw_input to input as it is only supported in python 3
+    and to end the string output in a single line we need a modification which includes
+    adding of end=' ' after the comma in the last line'''
